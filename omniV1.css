@@ -136,3 +136,8 @@ nav a:hover{
 	padding: 2vw;
 	font-family: "Open Sans";
 }
+
+#disqus_thread{
+	position: absolute;
+	top: 2000px;
+}
