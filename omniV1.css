@@ -1,0 +1,138 @@
+body{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.wrapper{
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(25,25,25,0.5);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.5); 
+    border-radius: 10px;
+    transition: background 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.8);  
+}
+
+*::selection{
+    background: #aaaaaa;
+}
+
+#header{
+	height: 45vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 1250;
+	border-bottom: 1px solid black;
+}
+
+#header_background{
+	position: absolute;
+	top: -50vh;
+	left: 0;
+	z-index: 1000;
+	animation: loadVideo 1.8s ease;
+}
+
+@keyframes loadVideo{
+	from{filter: blur(100px);}
+	to{filter: blur(0);}
+}
+
+#header_navbar{
+	height: 5vh;
+	width: calc(100vw - 10px);
+	background-color: rgba(255,255,255,0);
+	z-index: 1500;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: black;
+	user-select: none;
+	display: flex;
+	align-items: center;
+	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+	border-bottom: 1px solid black;
+}
+
+#header_navbar:hover{
+	background-color: rgba(255,255,255,0.6);
+	border-bottom: 1px solid transparent;
+}
+
+#header_navbar_links{
+	position: absolute;
+	top: 0;
+	right: 2vw;
+	height: 5vh;
+	width: 40vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+	text-decoration: none;
+}
+
+.nav_main_link{
+	color: black;
+	text-decoration: none;
+	font-family: "Montserrat";
+	transition: color 0.3s ease-in-out;
+	padding: 10px;
+}
+
+#nav_title_link{
+	position: relative;
+	left: 1vw;
+}
+
+nav:hover a{
+	color: rgba(0,0,0,0.5);
+}
+
+nav a:hover{
+	color: black;
+	border-bottom: 2px solid black;
+	box-sizing: border-box;
+	transition: border 0.15s ease-in-out;
+}
+
+#header_title{
+	color: black;
+	background-color: rgba(255,255,255,0.75);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1250;
+	padding: 1vw 2vw;
+	font-family: "Montserrat";
+	font-weight: 800;
+	user-select: none;
+}
+
+#content{
+	width: 60vw;
+	position: absolute;
+	top: 45vh;
+	left: 50vw;
+	transform: translateX(-50%);
+	background-color: white;
+	padding: 2vw;
+	font-family: "Open Sans";
+}
