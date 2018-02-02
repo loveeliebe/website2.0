@@ -3,6 +3,10 @@ body{
 	overflow-y: scroll;
 }
 
+*:focus{
+	outline: none;
+}
+
 .wrapper{
 	overflow-x: hidden;
 }
@@ -13,13 +17,10 @@ body{
 
 ::-webkit-scrollbar-track {
     background: rgba(25,25,25,0.5);
-    border-radius: 10px;
 }
  
 ::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255,0.5); 
-    border-radius: 10px;
-    transition: background 0.5s ease-in-out;
+    background: rgba(255,255,255,0.5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -38,14 +39,16 @@ body{
 	left: 0;
 	overflow: hidden;
 	z-index: 1250;
-	border-bottom: 1px solid black;
 }
 
 #header_background{
-	position: absolute;
-	top: -50vh;
+	position: fixed;
+	top: 0;
 	left: 0;
-	z-index: 1000;
+	height: 1080px;
+	width: 1920px;
+	left: 0;
+	z-index: -1;
 	animation: loadVideo 1.8s ease;
 }
 
@@ -58,8 +61,8 @@ body{
 	height: 5vh;
 	width: calc(100vw - 10px);
 	background-color: rgba(255,255,255,0);
-	z-index: 1500;
-	position: absolute;
+	z-index: 1500000000;
+	position: fixed;
 	top: 0;
 	left: 0;
 	color: black;
@@ -68,6 +71,7 @@ body{
 	align-items: center;
 	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 	border-bottom: 1px solid black;
+	background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.5));
 }
 
 #header_navbar:hover{
@@ -126,18 +130,15 @@ nav a:hover{
 	user-select: none;
 }
 
-#content{
+.content{
 	width: 60vw;
-	position: absolute;
+	position: relative;
 	top: 45vh;
 	left: 50vw;
 	transform: translateX(-50%);
 	background-color: white;
 	padding: 2vw;
+	z-index: 100000;
 	font-family: "Open Sans";
-}
-
-#disqus_thread{
-	position: absolute;
-	top: 2000px;
+	margin-bottom: 5vh;
 }
