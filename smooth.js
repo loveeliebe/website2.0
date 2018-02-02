@@ -34,18 +34,5 @@ $(document).ready(function(){
       }
     }
   });
-
-  $(window).on('resize scroll', function() {
-    var elementTop = $('#article1').offset().top;
-    var viewportTop = $(window).scrollTop();
-      if elementTop>viewportTop{
-        $('#header_navbar').fadeOut(500);
-      }else{
-        $('#header_navbar').fadeIn(500);
-      }
-    });
-  });
-
-
 };
 
