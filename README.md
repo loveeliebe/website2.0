@@ -1,2 +1,2 @@
 # romanticera
-press f to pay respects
+Romantic Era project by Pierre, Lucas K., Joel, Melvin of 16TEKCS (IT-Gymnasiet Södertörn)
