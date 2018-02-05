@@ -151,3 +151,5 @@ nav a:hover{
 	left: 250px;
 	z-index: 999999999999999999999999999999;
 }
+.goog-te-banner-frame.skiptranslate {display: none !important;} 
+body { top: 0px !important; }
