@@ -159,8 +159,9 @@ nav a:hover{
 }
 
 .nav-up {
-    top: -40px;
+    top: -5vh;
 }
+
 .test {
 	z-index: 99999;
 }
