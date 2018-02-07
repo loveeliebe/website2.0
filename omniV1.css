@@ -145,12 +145,9 @@ nav a:hover{
 }
 
 .google_translate_element{
-	float: right;
-	height: 50px;
-	width: 750px;
 	position: fixed;
-	top: 250px;
-	right: 150px;
+	top: 35vh;
+	right: 50px;
 	z-index: 999999999999999999999999999999;
 	background-color: #fff;
 }
