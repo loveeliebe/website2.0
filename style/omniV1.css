@@ -3,7 +3,7 @@ body{
 	overflow-y: scroll;
 	background-color: #2f4f4f;
 	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/99/95/6457fb584a65c01.jpg);
-	background-size: 100% 100%;
+	background-size: 100vh 100vw;
 }
 
 *:focus{
