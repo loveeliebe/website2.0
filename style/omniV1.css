@@ -55,12 +55,13 @@ body{
 	min-height: 100%;
 	left: 0;
 	z-index: -1;
-	animation: fadeIn 1.8s ease;
+	animation: fadeIn 2s ease;
 }
 
 @keyframes fadeIn{
-	from{opacity: 0;}
-	to{opacity: 1;}
+	0%{opacity: 0;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
 }
 
 #header_navbar{
@@ -206,7 +207,7 @@ nav a:hover{
 }
 
 .pageLoaded{
-	animation: fadeIn 0.5s ease-in-out;
+	animation: fadeIn 1s ease-in-out;
 	opacity: 1;
 }
 
