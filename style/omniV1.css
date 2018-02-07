@@ -54,10 +54,10 @@ body{
 	min-height: 100%;
 	left: 0;
 	z-index: -1;
-	animation: loadVideo 1.8s ease;
+	animation: fadeIn 1.8s ease;
 }
 
-@keyframes loadVideo{
+@keyframes fadeIn{
 	from{opacity: 0;}
 	to{opacity: 1;}
 }
@@ -202,4 +202,8 @@ nav a:hover{
 @keyframes showMeRight{
 	from{opacity: 0; transform: translate(50%, 0);}
 	to{opacity: 1; transform: translate(-50%, 0);}
+}
+
+.pageLoaded{
+	animation: fadeIn 0.5s ease-in-out;
 }
