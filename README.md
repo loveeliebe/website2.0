@@ -1,5 +1,6 @@
 # romanticera
-Romantic Era project by Pierre, Lucas K., Joel, Melvin of 16TEKCS (IT-Gymnasiet Södertörn)
+Romantic Era web design project
+by Pierre, Lucas K., Joel, Melvin of 16TEKCS *(IT-Gymnasiet Södertörn)*
 
 
 **languages used:**
