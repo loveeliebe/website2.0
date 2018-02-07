@@ -17,8 +17,8 @@
 			<a class="nav_main_link" id="nav_title_link" href="#header">The Romantic Era</a>
 		</nav>
 		<nav id="header_navbar_links">
-			<a class="nav_main_link" id="home" href="#header">Home</a>
-			<a class="nav_main_link" id="intro" href="#article1">Introduction - Mary Shelley</a>
+			<a class="nav_main_link" href="#header">Home</a>
+			<a class="nav_main_link" href="#article1">Introduction - Mary Shelley</a>
 			<a class="nav_main_link" id="society" href="#article2">Society</a>
 			<a class="nav_main_link" id="science" href="#article3">Science</a>
 			<a class="nav_main_link" id="woman" href="#article4">Role of Women</a>
@@ -127,16 +127,8 @@
 	      $("#header_background").attr('src', "Lucas.mp4");
 	  })
 		
-	 $("#art").click(function(){
+	 $("#society").click(function(){
 	      $("#header_background").attr('src', "melvin.mp4");
-	  })
-		
-	$("#home").click(function(){
-	      $("#header_background").attr('src', "Joel.mp4");
-	  })
-		
-	$("#intro").click(function(){
-	      $("#header_background").attr('src', "Joel.mp4");
 	  })
 	</script>
 	
@@ -144,8 +136,8 @@
 	<div id="disqus_thread"></div>	
 	<script>
 	var disqus_config = function () {
-	this.page.url = '<?php echo get_permalink(); ?>';
-	this.page.identifier = '<?php echo dsq_identifier_for_post($post); ?>';
+	this.page.url = 'pierrelefevre.github.io';
+	this.page.identifier = '/romanticera/';
 	};
 
 	(function() {  
