@@ -1,6 +1,6 @@
 body{
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: scroll;
 }
 
 *:focus{
@@ -10,7 +10,6 @@ body{
 
 .wrapper{
 	overflow-x: hidden;
-	overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -122,8 +121,8 @@ nav a:hover{
 	color: black;
 	background-color: rgba(255,255,255,0.75);
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 50vh;
+	left: 50vw;
 	transform: translate(-50%, -50%);
 	z-index: 1250;
 	padding: 1vw 2vw;
