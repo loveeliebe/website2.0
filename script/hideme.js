@@ -18,14 +18,6 @@ $(document).ready(function() {
         }); 
     
     });
-    
-    //Lyssnar efter klick på pilen
-    $("#landingSliceArrow").click(function() {
-	    $('html, body').animate({
-	    	//Skrolllar användarens viewport till valda elementet
-	        scrollTop: $("#firstActualSlice").offset().top
-	    }, 1750);
-	});
 });
 
 //Väntar tills sidan laddats innan innehållet visas
