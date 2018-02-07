@@ -149,11 +149,15 @@ nav a:hover{
 	margin-bottom: 5vh;
 }
 
+#article1{
+	margin-top: 45vh;
+}
+
 #google_translate_element{
 	position: fixed;
 	top: 50%;
 	transform: translateY(-50%);
-	right: 4vw;
+	right: 2vw;
 	z-index: 9999;
 	background-color: #fff;
 	padding: 1vw;
