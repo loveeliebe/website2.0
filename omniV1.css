@@ -135,7 +135,7 @@ nav a:hover{
 .content{
 	width: 60vw;
 	position: relative;
-	top: 45vh;
+	margin-top: 45vh;
 	left: 50vw;
 	transform: translateX(-50%);
 	background-color: white;
