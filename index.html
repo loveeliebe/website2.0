@@ -19,7 +19,7 @@
 		<nav id="header_navbar_links">
 			<a class="nav_main_link" href="#header">Home</a>
 			<a class="nav_main_link" href="#article1">Introduction - Mary Shelley</a>
-			<a class="nav_main_link" href="#article2">Society</a>
+			<a class="nav_main_link" id="society" href="#article2">Society</a>
 			<a class="nav_main_link" href="#article3">Science</a>
 			<a class="nav_main_link" href="#article4">Role of Women</a>
 			<a class="nav_main_link" href="#article5">Art and Music</a>
@@ -117,10 +117,7 @@
 	<div id="disqus_thread"></div>
 	
 	<script>
-	  $(window).scroll(function(){
-	    var height = $(window).scrollTop();
-
-	    if (height>700) {
+	  $("#society").click(function(){
 	      $("#header_background").attr('src', "Lucas.mp4");
 	    };
 	  })
