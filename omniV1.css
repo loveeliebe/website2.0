@@ -148,10 +148,13 @@ nav a:hover{
 	position: fixed;
 	top: 35vh;
 	right: 50px;
-	z-index: 999999999999999999999999999999;
+	z-index: 9999;
 	background-color: #fff;
 }
 
 .nav-up {
     top: -40px;
+}
+.test {
+	z-index: 99999;
 }
