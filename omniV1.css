@@ -145,13 +145,14 @@ nav a:hover{
 }
 
 .google_translate_element{
-	float: left;
+	float: right;
 	height: 50px;
 	width: 750px;
 	position: fixed;
 	top: 250px;
-	left: 250px;
+	right: 150px;
 	z-index: 999999999999999999999999999999;
+	background-color: #fff;
 }
 .google_translate_element.skiptranslate {display: none !important;} 
 body { top: 0px !important; }
