@@ -1,7 +1,7 @@
 body{
 	overflow-x: hidden;
 	overflow-y: scroll;
-	background-color: darkslategrey;
+	background-color: #2f4f4f;
 }
 
 *:focus{
