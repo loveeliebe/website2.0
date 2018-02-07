@@ -166,7 +166,7 @@ nav a:hover{
 }
 
 #google_translate_element:hover{
-	opacity: 1;
+	opacity: 1 !important; /*Using !important sucks, but so does the google thing that puts itself on top where we don't want it*/
 }
 
 .goog-te-banner-frame{
