@@ -8,7 +8,6 @@ body{
 }
 
 *:focus{
-	
 	outline: none;
 }
 
@@ -140,7 +139,7 @@ nav a:hover{
 .content{
 	width: 60vw;
 	position: relative;
-	margin-top: 45vh;
+	margin-top: 15vh;
 	left: 50vw;
 	transform: translateX(-50%);
 	background-color: white;
@@ -150,8 +149,9 @@ nav a:hover{
 	margin-bottom: 5vh;
 }
 
-.google_translate_element{
+#google_translate_element{
 	position: fixed;
+	/*margin-top: 45vh;*/
 	top: 35vh;
 	right: 50px;
 	z-index: 9999;
