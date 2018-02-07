@@ -161,6 +161,12 @@ nav a:hover{
 	z-index: 9999;
 	background-color: #fff;
 	padding: 1vw;
+	opacity: 0.75;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#google_translate_element:hover{
+	opacity: 1;
 }
 
 .nav-up {
