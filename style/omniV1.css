@@ -217,7 +217,7 @@ nav a:hover{
 	left: 50vh;
 	transform: translateX(-50%);
 	font-family: monospace;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 #contentLiveLoader{
