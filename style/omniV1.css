@@ -221,7 +221,7 @@ nav a:hover{
 }
 
 #contentLiveLoader{
-	animation: liveLoader 0.75 linear infinite;
+	animation: liveLoader 0.75s linear infinite;
 }
 
 @keyframes liveLoader{
