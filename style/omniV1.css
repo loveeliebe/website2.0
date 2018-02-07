@@ -162,3 +162,44 @@ nav a:hover{
 .test {
 	z-index: 99999;
 }
+
+.hideme{
+	opacity: 0;
+}
+
+.viewed{
+	opacity: 1;
+	position: relative;
+}
+
+.viewed.showMeBottom{
+	animation: showMeBottom 0.5s ease-in-out;
+}
+
+.viewed.showMeLeft{
+	animation: showMeLeft 0.5s ease-in-out;
+}
+
+.viewed.showMeRight{
+	animation: showMeRight 0.5s ease-in-out;
+}
+
+@keyframes showMeTop{
+	from{opacity: 0; transform: translateY(-20vh);}
+	to{opacity: 1; transform: translateY(0);}
+}
+
+@keyframes showMeBottom{
+	from{opacity: 0; transform: translateY(20vh);}
+	to{opacity: 1; transform: translateY(0);}
+}
+
+@keyframes showMeLeft{
+	from{opacity: 0; transform: translateX(-20vh);}
+	to{opacity: 1; transform: translateY(0);}
+}
+
+@keyframes showMeRight{
+	from{opacity: 0; transform: translateX(20vw);}
+	to{opacity: 1; transform: translateY(0);}
+}
