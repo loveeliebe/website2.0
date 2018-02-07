@@ -20,9 +20,9 @@
 			<a class="nav_main_link" href="#header">Home</a>
 			<a class="nav_main_link" href="#article1">Introduction - Mary Shelley</a>
 			<a class="nav_main_link" id="society" href="#article2">Society</a>
-			<a class="nav_main_link" href="#article3">Science</a>
-			<a class="nav_main_link" href="#article4">Role of Women</a>
-			<a class="nav_main_link" href="#article5">Art and Music</a>
+			<a class="nav_main_link" id="science" href="#article3">Science</a>
+			<a class="nav_main_link" id="woman" href="#article4">Role of Women</a>
+			<a class="nav_main_link" id="art" href="#article5">Art and Music</a>
 		</nav>
 	</div>
 	<div id="header">
@@ -114,14 +114,32 @@
 		Praesent posuere a dui sit amet porttitor. Pellentesque vehicula elit id arcu ultricies, eu laoreet risus viverra. Cras at ullamcorper eros. Donec maximus suscipit ex, hendrerit posuere nisi maximus ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae dui at enim congue consequat quis et nisl. Vestibulum semper consectetur nulla sit amet efficitur. Nullam vestibulum gravida odio non accumsan. Mauris molestie aliquet erat sit amet tempor. Ut et nulla velit. Cras fermentum lorem at purus imperdiet dictum. Morbi et viverra sem. In aliquam orci turpis, id posuere ipsum scelerisque eget. Ut sed bibendum odio. Praesent gravida mi quis cursus consectetur.</p>
 	</div>
 <div class="test">
-	<div id="disqus_thread"></div>
 	
-	<script>
+	
+	
+		<script>
 	  $("#society").click(function(){
+	      $("#header_background").attr('src', "joel.mp4");
+	  })
+		
+	 $("#science").click(function(){
+	      $("#header_background").attr('src', "Pierre.mp4");
+	  })
+		
+	 $("#woman").click(function(){
 	      $("#header_background").attr('src', "Lucas.mp4");
 	  })
-	</script>
 		
+	 $("#society").click(function(){
+	      $("#header_background").attr('src', "Melvin.mp4");
+	  })
+	</script>
+	
+	
+	
+	
+	
+	<div id="disqus_thread"></div>	
 	<script>
 	var disqus_config = function () {
 	this.page.url = '<?php echo get_permalink(); ?>';
