@@ -154,8 +154,6 @@ nav a:hover{
 	z-index: 999999999999999999999999999999;
 	background-color: #fff;
 }
-.google_translate_element.skiptranslate {display: none !important;} 
-body { top: 0px !important; }
 
 .nav-up {
     top: -40px;
