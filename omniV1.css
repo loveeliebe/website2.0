@@ -1,14 +1,16 @@
 body{
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 *:focus{
+	
 	outline: none;
 }
 
 .wrapper{
 	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
