@@ -83,7 +83,7 @@ body{
 
 #header_navbar:hover{
 	background-color: rgba(255,255,255,0.6);
-	border-bottom: 1px solid transparent;
+	border-bottom: 3px solid black;
 }
 
 #header_navbar_links{
