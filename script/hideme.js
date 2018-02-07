@@ -22,5 +22,5 @@ $(document).ready(function() {
 
 //Väntar tills sidan laddats innan innehållet visas
 $(window).on('load', function() {
-	$('.content').addClass('pageLoaded');
+	$('wrapper').addClass('pageLoaded');
 });
