@@ -5,6 +5,7 @@ body{
 	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/99/95/6457fb584a65c01.jpg);
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
+	opacity: 0;
 }
 
 *:focus{
@@ -206,4 +207,5 @@ nav a:hover{
 
 .pageLoaded{
 	animation: fadeIn 0.5s ease-in-out;
+	opacity: 1;
 }
