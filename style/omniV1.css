@@ -209,3 +209,24 @@ nav a:hover{
 	animation: fadeIn 0.5s ease-in-out;
 	opacity: 1;
 }
+
+#contentPreLoader{
+	color: white;
+	position: fixed;
+	bottom: 35vh;
+	left: 50vh;
+	transform: translateX(-50%);
+	font-family: monospace;
+	font-size: 3vw;
+}
+
+#contentLiveLoader{
+	animation: liveLoader 0.75 linear infinite;
+}
+
+@keyframes liveLoader{
+	0%{width: 0;}
+	25%{width: 1em;}
+	50%{width: 2em;}
+	75%{width: 3em;}
+}
