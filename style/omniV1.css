@@ -185,21 +185,21 @@ nav a:hover{
 }
 
 @keyframes showMeTop{
-	from{opacity: 0; transform: translateY(-20vh);}
-	to{opacity: 1; transform: translateY(0);}
+	from{opacity: 0; transform: translate(-50%, -20vh);}
+	to{opacity: 1; transform: translate(-50%, 0);}
 }
 
 @keyframes showMeBottom{
-	from{opacity: 0; transform: translateY(20vh);}
-	to{opacity: 1; transform: translateY(0);}
+	from{opacity: 0; transform: translate(-50%, 20vh);}
+	to{opacity: 1; transform: translate(-50%, 0);}
 }
 
 @keyframes showMeLeft{
-	from{opacity: 0; transform: translateX(-20vh);}
-	to{opacity: 1; transform: translateY(0);}
+	from{opacity: 0; transform: translate(-100%, 0);}
+	to{opacity: 1; transform: translate(-50%, 0);}
 }
 
 @keyframes showMeRight{
-	from{opacity: 0; transform: translateX(20vw);}
-	to{opacity: 1; transform: translateY(0);}
+	from{opacity: 0; transform: translate(-100%, 0);}
+	to{opacity: 1; transform: translate(-50%, 0);}
 }
