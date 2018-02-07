@@ -215,8 +215,7 @@ nav a:hover{
 	color: white;
 	position: fixed;
 	bottom: 35vh;
-	left: 50vh;
-	transform: translateX(-50%);
+	left: 5vh;
 	font-family: monospace;
 	font-size: 2vw;
 }
