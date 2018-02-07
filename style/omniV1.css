@@ -225,8 +225,7 @@ nav a:hover{
 }
 
 @keyframes liveLoader{
-	0%{width: 0;}
-	25%{width: 1em;}
-	50%{width: 2em;}
-	75%{width: 3em;}
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
 }
