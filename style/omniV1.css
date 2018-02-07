@@ -169,6 +169,12 @@ nav a:hover{
 	opacity: 1;
 }
 
+.goog-te-banner-frame{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
 .nav-up {
     top: -5vh;
 }
