@@ -3,6 +3,7 @@ Romantic Era project by Pierre, Lucas K., Joel, Melvin of 16TEKCS (IT-Gymnasiet 
 
 
 **Languages used:**
+-------------
  - HTML
  - CSS
  - JQuery
