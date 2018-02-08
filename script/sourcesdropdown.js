@@ -7,5 +7,6 @@ function main() {
     $(this).text('Sources Viewed');
 	});
 }
-
+/*
 $(document).ready(main);
+*/
