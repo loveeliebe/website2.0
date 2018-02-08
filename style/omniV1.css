@@ -187,19 +187,18 @@ header a:hover{
 	transition: opacity 0.2s ease-in-out;
 	text-decoration: none;
 	color: #000;
-	opacity: 0.5;
-	display: block;
+	opacity: 0;
+	display: none;
 	transition: opacity 0.25s ease-in-out;
 }
 
 #backTop:hover{
 	opacity: 1;
-	display: block;
 }
 
-.backHide{
-	opacity: 0 !important;
-	display: none !important;
+.backShow{
+	opacity: 0.5 !important;
+	display: block;
 }
 
 .nav-up {
