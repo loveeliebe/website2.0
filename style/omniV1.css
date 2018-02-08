@@ -156,8 +156,7 @@ header a:hover{
 
 #google_translate_element{
 	position: fixed;
-	top: 50%;
-	transform: translateY(-50%);
+	bottom: 2vw;
 	right: 2vw;
 	z-index: 9999;
 	background-color: #fff;
@@ -179,7 +178,7 @@ header a:hover{
 
 #backTop{
 	position: fixed;
-	top: 55%;
+	bottom: 10vh;
 	right: 2vw;
 	z-index: 9999;
 	background-color: #fff;
