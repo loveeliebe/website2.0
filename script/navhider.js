@@ -1,8 +1,9 @@
 var lastScroll = 0;
+var minHeight = 10;
 
 $(window).scroll(function(event){
     var st = $(this).scrollTop();
-    if (st > lastScroll && st > navbarHeight){
+    if (st > lastScroll && st > minHeight){
         $('header').removeClass('nav-down').addClass('nav-up');
     } else {
         if(st + $(window).height() < $(document).height()) {
