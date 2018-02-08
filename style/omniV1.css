@@ -87,7 +87,7 @@ body{
 
 #header_navbar_links{
 	position: absolute;
-	top: 0;
+	top: 1vh;
 	right: 2vw;
 	height: 5vh;
 	color: black;
