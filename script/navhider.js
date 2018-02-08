@@ -1,5 +1,5 @@
 var lastScroll = 0;
-var minHeight = 10;
+var minHeight = 25;
 
 $(window).scroll(function(event){
     var st = $(this).scrollTop();
