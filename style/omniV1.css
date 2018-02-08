@@ -198,7 +198,7 @@ header a:hover{
 
 .backShow{
 	opacity: 0.5 !important;
-	display: block;
+	display: block !important;
 }
 
 .nav-up {
