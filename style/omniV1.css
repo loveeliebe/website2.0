@@ -192,13 +192,13 @@ header a:hover{
 	transition: opacity 0.25s ease-in-out;
 }
 
-#backTop:hover{
-	opacity: 1;
-}
-
 .backShow{
 	opacity: 0.5 !important;
 	display: block !important;
+}
+
+#backTop:hover{
+	opacity: 1;
 }
 
 .nav-up {
