@@ -189,7 +189,7 @@ header a:hover{
 	color: #000;
 	opacity: 0.5;
 	display: block;
-	transition: opacity;
+	transition: opacity 0.25s ease-in-out;
 }
 
 #backTop:hover{
@@ -198,8 +198,8 @@ header a:hover{
 }
 
 .backHide{
-	opacity: 0;
-	display: none;
+	opacity: 0 !important;
+	display: none !important;
 }
 
 .nav-up {
