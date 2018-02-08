@@ -188,6 +188,10 @@ header a:hover{
 	transition: opacity 0.2s ease-in-out;
 }
 
+#backTop:hover{
+	opacity: 1;
+}
+
 .nav-up {
     top: -5vh !important;
 }
