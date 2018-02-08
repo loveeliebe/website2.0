@@ -79,7 +79,7 @@ body{
 	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 	border-bottom: 1px solid black;
 	background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.5));
-	transition: top 0.75s ease-in-out;
+	transition: top 0.5s ease-in-out;
 }
 
 #header_navbar:hover{
@@ -89,7 +89,7 @@ body{
 
 #header_navbar_links{
 	position: absolute;
-	top: 1.5vh;
+	top: 1.3vh;
 	right: 2vw;
 	height: 5vh;
 	color: black;
