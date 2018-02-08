@@ -5,11 +5,11 @@ $(window).scroll(function(event){
     var st = $(this).scrollTop();
     if (st > lastScroll && st > minHeight){
         $('header').removeClass('nav-down').addClass('nav-up');
-        $('#backTop').addClass('backHide');
+        $('#backTop').toggleClass('backHide');
     } else {
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
-            $('#backTop').addClass('backShow');
+            $('#backTop').toggleClass('backHide');
         }
     }
     st = lastScroll
