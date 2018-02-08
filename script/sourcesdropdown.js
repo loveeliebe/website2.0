@@ -4,7 +4,7 @@ function main() {
   $('.sources-button').on('click', function() {
 		$(this).next().slideToggle(400);
     $(this).toggleClass('active');
-    $(this).text('Sources Viewed');
+    $(this).text('Sources');
 	});
 }
 $(document).ready(main);
