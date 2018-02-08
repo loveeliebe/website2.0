@@ -9,7 +9,7 @@ $(window).scroll(function(event){
     } else {
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
-            $('#backTop').fadeOut();
+            $('#backTop').fadeOut("slow");
         }
     }
     st = lastScroll
