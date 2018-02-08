@@ -110,11 +110,11 @@ body{
 	left: 1vw;
 }
 
-nav:hover a{
+header:hover a{
 	color: rgba(0,0,0,0.5);
 }
 
-nav a:hover{
+header a:hover{
 	color: black;
 	border-bottom: 2px solid black;
 	box-sizing: border-box;
