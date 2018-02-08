@@ -176,6 +176,17 @@ header a:hover{
 	opacity: 0;
 }
 
+#backTop{
+	position: fixed;
+	top: 55%;
+	right: 2vw;
+	z-index: 9999;
+	background-color: #fff;
+	padding: 1vw;
+	opacity: 0.75;
+	transition: opacity 0.2s ease-in-out;
+}
+
 .nav-up {
     top: -5vh !important;
 }
