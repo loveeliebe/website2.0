@@ -218,6 +218,7 @@ header a:hover{
 	user-select: none;
 	cursor: pointer;
 	transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
 
 .active{
 	background-color: #444;
