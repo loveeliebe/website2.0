@@ -202,7 +202,7 @@ header a:hover{
 }
 
 .nav-up {
-    top: -6vh !important;
+	top: -6vh !important;
 }
 
 .hideme{
@@ -212,6 +212,16 @@ header a:hover{
 .viewed{
 	opacity: 1;
 	position: relative;
+}
+
+.sources-button{
+	user-select: none;
+	cursor: pointer;
+	transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+
+.active{
+	background-color: #444;
+	color: #fff;
 }
 
 .viewed.showMeBottom{
