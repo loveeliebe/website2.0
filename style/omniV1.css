@@ -215,6 +215,7 @@ header a:hover{
 }
 
 .sources-button{
+	padding: 10px;
 	user-select: none;
 	cursor: pointer;
 	transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
