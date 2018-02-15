@@ -1,6 +1,7 @@
+var lastChecked = 0;
+
 $(window).scroll(function(){
   var height = $(window).scrollTop();
-  var lastChecked = 0;
   
   var article2_object = $("#article2").offset().top + ( ( $("#article2").outerHeight() ) / 2 );
   var article2_window = $(window).scrollTop() + $(window).height();
