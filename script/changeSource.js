@@ -8,6 +8,7 @@ $(window).scroll(function(){
   
   
     if (article2_window>article2_object && lastChecked != 2) {
+      console.log(2);
       $("#header_background").attr('src', "Joel.mp4");
       lastChecked = 2;
     };
@@ -21,6 +22,7 @@ $(window).scroll(function(){
   
 
     if (article3_window>article3_object && lastChecked != 3) {
+      console.log(3);
       $("#header_background").attr('src', "Pierre.mp4");
       lastChecked = 3;
     };
