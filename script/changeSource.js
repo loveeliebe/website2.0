@@ -7,7 +7,7 @@ $(window).scroll(function(){
   var viewport = $(window).scrollTop() + $(window).height();
   
   
-    if (article2_window>article2_object && lastChecked != 2 && viewport>article3_object) {
+    if (viewport>article2_object && lastChecked != 2 && viewport>article3_object) {
       console.log(2);
       $("#header_background").attr('src', "Joel.mp4");
       lastChecked = 2;
@@ -21,7 +21,7 @@ $(window).scroll(function(){
  
   
 
-    if (article3_window>article3_object && lastChecked != 3 && viewport>article2_object) {
+    if (viewport>article3_object && lastChecked != 3 && viewport>article2_object) {
       console.log(3);
       $("#header_background").attr('src', "Pierre.mp4");
       lastChecked = 3;
