@@ -1,3 +1,7 @@
+var check = 1;
+
+
+if (check==1) {
 $(window).scroll(function(){
   var height = $(window).scrollTop();
   
@@ -17,17 +21,14 @@ $(window).scroll(function(){
     var article3_window = $(window).scrollTop() + $(window).height();
  
   
-  
- var alreadyOn3 = false;
- if not alreadyOn3{
-    if (article3_window>article3_object) {
-       var alreadyOn3 = true;
+
+    if (article3_window>article3_object && check==1 ) {
       $("#header_background").attr('src', "Pierre.mp4");
+      check = 0;
     };
   
- };
-  
-  
-  
-  
-})
+ 
+});
+
+}
+
