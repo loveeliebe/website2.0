@@ -15,13 +15,17 @@ $(window).scroll(function(){
   
     var article3_object = $("#article3").offset().top + ( ( $("#article3").outerHeight() ) / 2 );
     var article3_window = $(window).scrollTop() + $(window).height();
+ 
   
   
+ var alreadyOn3 = false;
+ if not alreadyOn3{
     if (article3_window>article3_object) {
+       var alreadyOn3 = true;
       $("#header_background").attr('src', "Pierre.mp4");
     };
   
-  
+ };
   
   
   
