@@ -27,7 +27,7 @@ $(window).scroll(function(){
       lastChecked = 3;
     };
   
- 
+ lastChecked = 0;
 });
 
 
