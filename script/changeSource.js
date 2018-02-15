@@ -22,7 +22,7 @@ $(window).scroll(function(){
  
   
 
-    if (article3_window>article3_object && check==1 ) {
+    if (article3_window>article3_object) {
       $("#header_background").attr('src', "Pierre.mp4");
       check = 0;
     };
