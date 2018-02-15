@@ -4,10 +4,10 @@ $(window).scroll(function(){
   var height = $(window).scrollTop();
   
   var article2_object = $("#article2").offset().top + ( ( $("#article2").outerHeight() ) / 2 );
-  var article2_window = $(window).scrollTop() + $(window).height();
+  var viewport = $(window).scrollTop() + $(window).height();
   
   
-    if (article2_window>article2_object && lastChecked != 2 && article3_window>article3_object) {
+    if (article2_window>article2_object && lastChecked != 2 && viewport>article3_object) {
       console.log(2);
       $("#header_background").attr('src', "Joel.mp4");
       lastChecked = 2;
@@ -17,11 +17,11 @@ $(window).scroll(function(){
   
   
     var article3_object = $("#article3").offset().top + ( ( $("#article3").outerHeight() ) / 2 );
-    var article3_window = $(window).scrollTop() + $(window).height();
+    
  
   
 
-    if (article3_window>article3_object && lastChecked != 3 && article2_window>article2_object) {
+    if (article3_window>article3_object && lastChecked != 3 && viewport>article2_object) {
       console.log(3);
       $("#header_background").attr('src', "Pierre.mp4");
       lastChecked = 3;
