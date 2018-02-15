@@ -7,7 +7,7 @@ $(window).scroll(function(){
   var viewport = $(window).scrollTop() + $(window).height();
   
   
-    if (viewport>article2_object && lastChecked != 2 && viewport>article3_object) {
+    if (viewport>article2_object && lastChecked != 2 && viewport<article3_object) {
       console.log(2);
       $("#header_background").attr('src', "Joel.mp4");
       lastChecked = 2;
