@@ -10,11 +10,12 @@ $(window).scroll(function(){
   
     if(viewport>article2_object) {
       $("#header_background").attr('src', "Joel.mp4");
-    
+    };
+  
     else if(viewport>article3_object) {
       $("#header_background").attr('src', "Pierre.mp4");
     };
-  };
+  
 
 });
 
