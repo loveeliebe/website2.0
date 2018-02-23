@@ -293,3 +293,11 @@ header a:hover{
 	position: relative;
 	z-index: 999999999999999999999999999999999999;
 }
+
+
+#article3bg{
+	width: 100%;
+	height: 40em;
+	position: fixed;
+	z-index: -10;
+}
